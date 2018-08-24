@@ -237,7 +237,8 @@ body, html {
 	background: transparent;
 	border:0;
 	height: 30px;
-	border-bottom: 1px solid #575755;
+	border-bottom: 1px solid rgba(255, 255,255, .3);
+	border-opacity:0.3;
 	color: #fff;
 	padding: 2px 0;
 	width: 100%;
@@ -249,7 +250,8 @@ body, html {
 .form_res table tr td button{
 	width: 95px;
 	height: 32px;
-	border:1px solid #575755;
+	border: 1px solid rgba(255, 255, 255, .3);
+	border-opacity:0.3;
 	background: transparent;
 	color: #fff;
 	text-transform: uppercase;
@@ -698,7 +700,7 @@ body, html {
 	padding-bottom: 10px;
 }
 .wrap_page_4 .list_teacher .item_teacher .info p{
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 16px;
 }
 .wrap_page_4 .number_page{
@@ -768,7 +770,7 @@ body, html {
 }
 .item_mentor .text_info p{
 	letter-spacing: 1px;
-	font-size: 12px;
+	font-size: 14px;
 	line-height: 16px;
 	font-family: 'HelveticaNeue-Light';
 }
