@@ -93,7 +93,9 @@ body, html {
 	border-style: solid;
 	margin-top: -38px;
 }
-
+.logo_mobile{
+	display: none;
+}
 .controlArrow.prev{
 	left:15px;
 	width: 0px;
@@ -214,27 +216,31 @@ body, html {
 	padding-left: calc((8.33% - 50px) / 2);
     padding-right: calc((8.33% - 50px) / 2);
     padding-top: 3%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 }
 .header .logo{
 	float: left;
 }
-ul.menu{
-	position: fixed;
-    right: 30px;
-	font-family: 'HelveticaNeue-Light';
-	top: 35px;
-	z-index: 99;
+.header .logo img{
+	width: 80%;
 }
-ul.menu li{
+.header ul.menu{
+	font-family: 'HelveticaNeue-Light';
+	float: right;
+}
+.header ul.menu li{
 	list-style: none;
 	display: inline-block;
 	padding: 0 15px;
 	cursor: pointer;
 }
 .content_home{
-	padding: 0px 260px;
+	padding: 0px 200px;
 	width: 100%;
-	margin-top: 7%;
+	padding-top: 10%;
 }
 .content_home .form_res{
 	width: 210px;
@@ -578,14 +584,14 @@ ul.menu li{
 	text-align: center;
 	margin-left: 0;
 	width: 100%;
-	margin-top: 4%;
+	margin-top: 6%;
 }
 .wrap_page_3 .list_icon{
 	padding: 0 20%;
 	display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     justify-content: space-between;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 .wrap_page_3 .list_icon .item_icon{
 	height: 90px;
@@ -676,7 +682,7 @@ ul.menu li{
 	padding-top: 0;
 	width: 100%;
 	text-align: center;
-	margin-top: 7%;
+	margin-top: 8%;
 }
 .wrap_page_4 .list_teacher{
 	padding: 0 250px;
@@ -733,7 +739,7 @@ ul.menu li{
 	padding-top: 0;
 	width: 100%;
 	text-align: center;
-	margin-top: 5%;
+	margin-top: 8%;
 }
 .mentor{
 	display: grid;
@@ -798,7 +804,7 @@ ul.menu li{
 	height: 100%;
 	position: relative;
 	background: #b78543;
-	padding: 6% 14%;
+	padding: 9% 14% 0 14%;
 	display: grid;
     grid-template-columns: 30% 70%;
     justify-content: space-between;
@@ -947,19 +953,19 @@ ul.menu li{
     transform: translateY(0) translateZ(0);
 }
 
-.wrap_home .ani_class {
+.ani_class {
 	animation: animation_class 0.5s ease 0s 1 normal forwards running;
 	transform-origin: 50% 50%;
 }
-.wrap_home  .ani_class2 {
+.ani_class2 {
 	animation: animation_class 1s ease 0s 1 normal forwards running;
 	transform-origin: 50% 50%;
 }
-.wrap_home  .ani_class3 {
+.ani_class3 {
 	animation: animation_class 1.5s ease 0s 1 normal forwards running;
 	transform-origin: 50% 50%;
 }
-.wrap_home  .ani_class4 {
+.ani_class4 {
 	animation: animation_class 2s ease 0s 1 normal forwards running;
 	transform-origin: 50% 50%;
 }
