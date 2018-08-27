@@ -414,10 +414,12 @@
 
         var owl = $('.owl-carousel');
         $('#move_page1').click(function(){
-            owl.trigger('to.owl.carousel', 1)
+            owl.trigger('to.owl.carousel', 1);
+            aniPrev();
         });
         $('#move_page2').click(function(){
-            owl.trigger('to.owl.carousel', 2)
+            owl.trigger('to.owl.carousel', 2);
+            aniPrev();
         });
         owl.owlCarousel({
             loop: false,
