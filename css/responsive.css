@@ -196,11 +196,17 @@
 	
 }
 @media (min-width: 721px) and (max-width: 994px){
+	.header {
+	    padding: 4% 20px 0 20px;
+	}
+	.header ul.menu li {
+	    padding: 0px 8px;
+	}
 	.content_home {
-	    padding: 30px 50px;
+	    padding: 100px 50px 30px 50px;
 	}
 	.title_page {
-		margin-left: 10%;
+		margin-left: 5%;
 	}
 	.footer_home {
 		padding: 0px 50px;
