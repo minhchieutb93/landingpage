@@ -300,16 +300,22 @@
 	    width: 100%;
 	}
 	.item_mentor .bg_mentor {
-	    width: 250px;
-	    height: 250px;
+	    width: 200px;
+    	height: 200px;
 	    margin: 0 auto;
 	}
 	.item_mentor .image {
 	    position: absolute;
 	    top: 15px;
 	    left: 80px;
-	    width: 250px;
-	    height: 250px;
+	    width: 200px;
+    	height: 200px;
+	}
+	.item_mentor .text_info .title {
+		font-size: 14px;
+	}
+	.item_mentor .text_info p {
+		font-size: 12px;
 	}
 	.item_mentor .text_info {
 		left: 15px;
@@ -422,6 +428,12 @@
 	}
 	.owl-nav {
 		top: 90%;
+	}
+	.wrap_page_4 .list_teacher .item_teacher .info .name {
+	    font-size: 14px;
+	}
+	.wrap_page_4 .list_teacher .item_teacher .info p {
+	    font-size: 12px;
 	}
 	.header{
 		padding: 10% 5% 0% 5%;
@@ -568,8 +580,8 @@
 	    width: 100%;
 	}
 	.wrap_page_4 .list_teacher .item_teacher .image {
-		height: 100px;
-    	width: 100px;
+		height: 90px;
+    	width: 90px;
     	margin: 0 auto;
 	}
 	.wrap_page_4 .list_teacher .item_teacher {
@@ -606,11 +618,12 @@
 	    height: 250px;
 	}
 	.item_mentor .text_info {
-		left: 15px;
+		left: 35px;
 	}
 	.wrap_page_6{
 		padding: 0;
 		grid-template-columns: 100%;
+		padding-bottom: 45px;
 	}
 	.wrap_page_6 .wrap_page_6_left .title_page {
 		padding-top: 80px;
@@ -633,8 +646,8 @@
 	}
 	.wrap_page_7 {
 		grid-template-columns: 100%;
-		padding: 0;
-		padding-top: 10%;
+		padding:10% 0;
+
 	}
 	.content_item {
 		background: none;
@@ -643,7 +656,7 @@
 	}
 	.item_page_7 {
 		margin-top: 0;
-		padding: 0 15%;
+		padding: 0px 20%;
 	}
 	.wrap_page_8 {
 		padding: 0;
