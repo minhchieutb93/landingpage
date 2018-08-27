@@ -22,7 +22,7 @@
   position: absolute;
   height: 3px;
   width: 20px;
-  background: #bba753;
+  background: #fff;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -52,7 +52,7 @@
   left: 6px;
 }
 #nav-icon3.open{
-	border: 1px solid #bba753;
+	border: 1px solid #fff;
 	border-radius: 50%;
 }
 #nav-icon3.open span:nth-child(1) {
