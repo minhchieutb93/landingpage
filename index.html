@@ -52,7 +52,7 @@
             </a>
         </li>
         <li>
-            <a href="" title="" class="c-nav-link t-link--secondary u-light t-text u-color--white">
+            <a id="move_page8" title="" class="c-nav-link t-link--secondary u-light t-text u-color--white">
                 <span class="u-relative u-flex u-overflow-h">
                     <span class="t-link-inner">Đăng ký</span> 
                     <span class="t-link-inner-top u-absolute u-pos-tl">Đăng ký</span> 
@@ -399,10 +399,37 @@
                     <div class="form_res">
                         <table width="100%" border="0">
                             <tr>
-                                <td><input type="text" placeholder="Họ & tên" name=""></td>
+                                <td><input type="text" placeholder="Họ & tên *" name=""></td>
                             </tr>
                             <tr>
-                                <td><input type="text" placeholder="Email" name=""></td>
+                                <td><input type="text" placeholder="Số điện thoại *" name=""></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" placeholder="Email *" name=""></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option>Nơi ở</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option>Chọn trình độ học vấn</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <select>
+                                        <option>Chọn ngành đăng ký</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" placeholder="Năm sinh" name=""></td>
                             </tr>
                             <tr>
                                 <td><input style="border:none;" type="text" placeholder="Số điện thoại" name=""></td>
@@ -437,6 +464,10 @@
         });
         $('#move_page2').click(function(){
             owl.trigger('to.owl.carousel', 2);
+            aniPrev();
+        });
+        $('#move_page8').click(function(){
+            owl.trigger('to.owl.carousel', 7);
             aniPrev();
         });
         owl.owlCarousel({

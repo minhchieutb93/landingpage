@@ -260,6 +260,20 @@ body, html {
 	font-size: 14px;
 	outline: none;
 }
+.form_res table tr td select{
+	background: transparent;
+	border:0;
+	height: 30px;
+	border-bottom: 1px solid rgba(255, 255,255, .3);
+	color: #fff;
+	padding: 2px 0;
+	width: 100%;
+	font-size: 14px;
+	outline: none;
+}
+.form_res table tr td select::placeholder {
+   color: #fff;
+}
 .form_res table tr td input::placeholder {
    color: #fff;
 }
@@ -996,7 +1010,7 @@ body, html {
 	display: grid;
     grid-template-columns: 50% 50%;
     justify-content: space-between;
-    padding-top: 18%;
+    padding-top: 14%;
 }
 .item_page_8 .time{
 	font-family: 'digitalregular';
@@ -1013,7 +1027,7 @@ button{
 }
 .item_page_8 .form_res{
 	margin: 0 auto;
-	width: 210px;
+	width: 250px;
 }
 .t-link--secondary:active{
 	    outline: none;
