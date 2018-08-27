@@ -606,16 +606,16 @@
 	    width: 100%;
 	}
 	.item_mentor .bg_mentor {
-	    width: 250px;
-	    height: 250px;
+	    width: 200px;
+	    height: 200px;
 	    margin: 0 auto;
 	}
 	.item_mentor .image {
 	    position: absolute;
-	    top: 15px;
+	    top: 10px;
 	    left: 80px;
-	    width: 250px;
-	    height: 250px;
+	    width: 200px;
+	    height: 200px;
 	}
 	.item_mentor .text_info {
 		left: 35px;
