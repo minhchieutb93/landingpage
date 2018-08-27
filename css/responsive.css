@@ -532,15 +532,18 @@
 	}
 	.wrap_page_3 .list_icon .item_icon {
 	    margin-top: 25px;
+	    height: 60px;
 	}
 	.wrap_page_3 .step .step_item .text .title {
 	    font-size: 14px;
+	    padding-bottom: 10px;
 	}
 	.wrap_page_3 .step .step_item .text p {
 		font-size: 12px;
+		line-height: 14px;
 	}
 	.item_icon.icon_book, .item_icon.icon_internet, .item_icon.icon_smile, .item_icon.icon_conect, .item_icon.icon_like{
-		background-size: 70%;
+		background-size: 50%;
 	}
 	.wrap_page_3 .step .step_item .bg_number {
 	    font-size: 60px;
