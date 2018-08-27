@@ -420,6 +420,9 @@
 		padding: 5px 0;
 		display: block;
 	}
+	.owl-nav {
+		top: 90%;
+	}
 	.header{
 		padding: 10% 5% 0% 5%;
 	}
@@ -451,9 +454,7 @@
 	    margin: 0 auto;
 	    display: none;
 	}
-	#moveDown,#moveUp{
-		display: none;
-	}
+	
 	.title_page {
 	    float: left;
 	    margin-left: 0px;
