@@ -218,11 +218,14 @@ body, html {
 .header .logo{
 	float: left;
 }
-.header ul.menu{
-	float: right;
+ul.menu{
+	position: fixed;
+    right: 30px;
 	font-family: 'HelveticaNeue-Light';
+	top: 35px;
+	z-index: 99;
 }
-.header ul.menu li{
+ul.menu li{
 	list-style: none;
 	display: inline-block;
 	padding: 0 15px;
