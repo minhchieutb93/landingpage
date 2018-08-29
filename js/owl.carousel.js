@@ -758,8 +758,9 @@
 	 * @param {Event} event - The event arguments.
 	 */
 	Owl.prototype.onDragStart = function(event) {
+		aniPrev();  
 		var stage = null;
-
+		aniNext();
 		if (event.which === 3) {
 			return;
 		}
@@ -856,6 +857,7 @@
 	 * @param {Event} event - The event arguments.
 	 */
 	Owl.prototype.onDragEnd = function(event) {
+		aniNext();
 		var delta = this.difference(this._drag.pointer, this.pointer(event)),
 			stage = this._drag.stage.current,
 			direction = delta.x > 0 ^ this.settings.rtl ? 'left' : 'right';
@@ -3446,3 +3448,44 @@
 	}
 
 })(window.Zepto || window.jQuery, window, document);
+function aniNext(){
+                $(".header").removeClass("ani_class");
+                $(".content_home").removeClass("ani_class2");
+                $(".footer_home").removeClass("ani_class3");
+                $(".wrap_home .number_page").removeClass("ani_class4");
+                $(".animation_class").removeClass("active");
+                $(".animation_class2").removeClass("active");
+                $(".animation_class3").removeClass("active");
+                $(".animation_class4").removeClass("active"); 
+            setTimeout(function(){ 
+                $(".header").addClass("ani_class");
+                $(".content_home").addClass("ani_class2");
+                $(".footer_home").addClass("ani_class3");
+                $(".wrap_home .number_page").addClass("ani_class4");
+                $(".section").find(".animation_class").addClass("active");
+                $(".section").find(".animation_class2").addClass("active");
+                $(".section").find(".animation_class3").addClass("active");
+                $(".section").find(".animation_class4").addClass("active");
+            }, 500);
+        }
+
+        function aniPrev(){
+            $(".header").removeClass("ani_class");
+                $(".content_home").removeClass("ani_class2");
+                $(".footer_home").removeClass("ani_class3");
+                $(".wrap_home .number_page").removeClass("ani_class4");
+                $(".animation_class").removeClass("active");
+                $(".animation_class2").removeClass("active");
+                $(".animation_class3").removeClass("active");
+                $(".animation_class4").removeClass("active"); 
+            setTimeout(function(){ 
+                $(".header").addClass("ani_class");
+                $(".content_home").addClass("ani_class2");
+                $(".footer_home").addClass("ani_class3");
+                $(".wrap_home .number_page").addClass("ani_class4");
+                $(".section").find(".animation_class").addClass("active");
+                $(".section").find(".animation_class2").addClass("active");
+                $(".section").find(".animation_class3").addClass("active");
+                $(".section").find(".animation_class4").addClass("active");
+            }, 500);
+        }
