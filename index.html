@@ -454,6 +454,7 @@
 <script src="js/jquery.mousewheel.min.js"></script>
 <script>
     $(document).ready(function() {
+        
         var height = window.innerHeight;
         $(".section").css("height",height+"px");
 
@@ -556,6 +557,13 @@
         $(".button_menu_mobile").click(function(){
             $(".header").toggleClass("active");
         });
+        var supportsOrientationChange = "onorientationchange" in window,
+        orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
+
+        window.addEventListener(orientationEvent, function() {
+            var height = window.innerWidth;
+            $(".section").css("height",height+"px");
+        }, false);
     });
 </script>
 

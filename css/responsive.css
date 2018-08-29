@@ -111,12 +111,70 @@
 	    padding-top: 25%;
 	}
 }
+@media screen and (orientation:portrait) {
+	.title_page {
+	    margin-left: 20%;
+	}
+}
 @media (min-width: 995px) and (max-width: 1280px){
 	.item_page_8 .time {
 		font-size: 50px;
+		padding-top: 20%;
 	}
 	.content_home {
-	    padding: 0px 200px;
+	    padding: 0px 10%;
+	    padding-top: 15%;
+	}
+	.title_page{
+		margin-left: 20%;
+	}
+	.footer_home {
+	    padding: 0 10%;
+	}
+	.wrap_page_2 .title_page {
+		margin-top: 20%;
+	}
+	.wrap_page_3 .step {
+	    padding: 0 15%;
+	}
+	.wrap_page_3 .list_icon .item_icon {
+		background-size: 50%;
+	}
+	.wrap_page_3 .title_page {
+		margin-top: 10%;
+	}
+	.wrap_page_4 .list_teacher {
+    	padding: 0 14%;
+    }
+    .wrap_page_4 .title_page {
+    	margin-top: 10%;
+    }
+    .item_mentor .bg_mentor {
+	    width: 280px;
+	    height: 280px;
+	}
+	.item_mentor .image {
+		width: 280px;
+	}
+	.wrap_page_5 .title_page {
+		margin-top: 10%;
+	}
+	.wrap_page_6_right .box .bg {
+	    width: 500px;
+	    height: 373px;
+	}
+	.wrap_page_6_right .box .image {
+	    width: 500px;
+	    height: 373px;
+	}
+	.wrap_page_6_right {
+		padding-top: 10%;
+	}
+	.item_page_7 {
+	    margin-top: 50%;
+	}
+	.wrap_page_8{
+		padding-top: 23%;
 	}
 	@media screen and (orientation:portrait) {
 		.wrap_page_4 .list_teacher .item_teacher {
@@ -124,7 +182,7 @@
 		}
 		.content_home {
 		    padding: 0px 90px;
-		    margin-top: 150px;
+		    padding-top: 20%;
 		}
 		.footer_home {
 			grid-template-columns: 50% 50%;
@@ -138,7 +196,7 @@
 		}
 		.wrap_page_7 {
 			grid-template-columns: 100%;
-			padding: 0 14%;
+			padding: 10% 14%;
 			
 		}
 		.item_page_7 {
@@ -150,7 +208,7 @@
 			margin: 0 auto;
 		}
 		.content_item .image {
-		    max-width: 90%;
+		    max-width: 70%;
 		    margin: 0 auto;
 		}
 		.wrap_page_3 .list_icon {
@@ -171,7 +229,7 @@
 			padding: 0 170px;
 		}
 		.wrap_page_2 .title_page {
-			margin-top: 35%;
+			margin-top: 40%;
 		}
 		.mentor {
 			grid-template-columns: 100%;
@@ -191,6 +249,25 @@
 			text-align: center;
 			margin-top: 20%;
 			font-size: 40px;
+		}
+		.wrap_page_2 .desciption{
+			padding-top: 5%;
+		}
+		.index_school{
+			padding-top: 5%;
+		}
+		.wrap_page_4 .list_teacher .item_teacher .image {
+			width: 200px;
+			height: 200px;
+		}
+		.wrap_page_5 .title_page {
+			margin-top: 18%;
+		}
+		.wrap_page_6_left{
+			padding-top: 20%;
+		}
+		.header {
+			padding-top: 5%;
 		}
 	}
 	
