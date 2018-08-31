@@ -43,7 +43,7 @@
             </a>
         </li>
         <li>
-            <a  title="" class="c-nav-link t-link--secondary u-light t-text u-color--white">
+            <a id="move_page7" title="" class="c-nav-link t-link--secondary u-light t-text u-color--white">
                 <span class="u-relative u-flex u-overflow-h">
                     <span class="t-link-inner">Bằng cấp & chứng chỉ</span> 
                     <span class="t-link-inner-top u-absolute u-pos-tl">Bằng cấp & chứng chỉ</span> 
@@ -477,6 +477,10 @@
         });
         $('#move_page8').click(function(){
             owl.trigger('to.owl.carousel', 7);
+            aniPrev();
+        });
+        $('#move_page7').click(function(){
+            owl.trigger('to.owl.carousel', 6);
             aniPrev();
         });
         owl.owlCarousel({
