@@ -472,7 +472,7 @@ body, html {
 }
 .index_school{
 	display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     justify-content: space-between;
 }
 .index_school .index_item{
@@ -653,6 +653,7 @@ body, html {
 .wrap_page_3 .step .step_item{
 	height: 165px;
 	position: relative;
+	z-index: 99;
 }
 .wrap_page_3 .step .step_item .bg_number{
 	font-size: 90px;
@@ -709,6 +710,8 @@ body, html {
     margin: 0 auto;
     margin-top: 15%;
     padding: 0 10px;
+    position: relative;
+    z-index: 999;
 }
 .wrap_page_4 .list_teacher .item_teacher .image{
 	height: 230px;
@@ -782,9 +785,11 @@ body, html {
     position: absolute;
     top: 15px;
     left: 15px;
+    height: 100%;
 }
 .item_mentor .image img{
-	width: 100%;
+	width: auto !important;
+	max-width: 100%;
 	max-height: 100%;
 	object-fit: cover;
 }
